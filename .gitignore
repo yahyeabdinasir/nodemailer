@@ -1,74 +1,18 @@
-# ────────────────
-# Node.js deps
-# ────────────────
+# Node modules
 node_modules/
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-package-lock.json
-yarn.lock
-.pnpm-debug.log
 
-# ────────────────
-# Next.js (frontend)
-# ────────────────
-.next/
-out/
-dist/
-next-env.d.ts
-
-# ────────────────
-# Express (backend)
-# ────────────────
-backend/node_modules/
-backend/build/
-backend/uploads/
-backend/tmp/
-backend/public/uploads/
-backend/coverage/
-*.lcov
-
-# ────────────────
-# Environment Files
-# ────────────────
+# Environment variables
 .env
-.env.local
-.env.development
-.env.test
-.env.production
-backend/.env
 
-# ────────────────
-# Logs
-# ────────────────
-logs
-*.log
-*.log.*
-pids
-*.pid
-*.seed
-*.pid.lock
+# Build outputs
+dist/
+build/
 
-# ────────────────
-# System / OS
-# ────────────────
+# OS files
 .DS_Store
 Thumbs.db
-
-# ────────────────
-# Editors / IDEs
-# ────────────────
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# ────────────────
-# Miscellaneous
-# ────────────────
-*.tsbuildinfo
-.cache/
-.parcel-cache/
-.vercel/
-*.tgz
